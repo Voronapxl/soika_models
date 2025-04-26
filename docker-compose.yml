@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  soika_models:
+    image: soika_models:0.0.1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 80:80

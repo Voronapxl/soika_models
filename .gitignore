@@ -1,0 +1,8 @@
+/.venv
+/.idea
+/.vscode
+/.devcontainer
+*.ipynb
+/__pycache__
+.env.development
+*.log

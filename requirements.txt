@@ -1,0 +1,7 @@
+torch~=2.7.0
+transformers~=4.51.3
+loguru~=0.7.3
+flair~=0.15.1
+fastapi~=0.115.12
+gunicorn~=23.0.0
+uvicorn~=0.34.2
