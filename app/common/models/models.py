@@ -1,9 +1,9 @@
-import asyncio
 from transformers import pipeline
 from concurrent.futures import ThreadPoolExecutor
+import asyncio
 from loguru import logger
-import torch
 from flair.models import SequenceTagger
+import torch
 
 class ModelsInit:
     def __init__(self):
