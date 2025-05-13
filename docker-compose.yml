@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   soika_models:
-    image: soika_models:0.0.1
+    image: voronapxl/soika_models:0.0.2
     build:
       context: .
       dockerfile: ./Dockerfile
